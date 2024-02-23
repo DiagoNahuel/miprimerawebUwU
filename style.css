@@ -131,3 +131,6 @@ article section div h2 {
   text-decoration: underline;
   color: red;
 } */
+.greeting {
+  font-style: oblique;
+}
