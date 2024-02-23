@@ -1,0 +1,133 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-image: url("https://estaticos-cdn.prensaiberica.es/clip/0c9177bb-182c-4db2-9663-d5e01821f9a9_alta-libre-aspect-ratio_default_0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+}
+img {
+  float: right;
+  width: 10%;
+  height: 10%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+header nav ul {
+  display: flex;
+  gap: 2.0em;
+}
+header nav ul li a {
+  color: white;
+}
+header nav ul li a:hover {
+  color: blue;
+}
+header a {
+  text-decoration: none;
+}
+
+article section div a:hover {
+  text-decoration: underline;
+  color: red;
+}
+/* header nav label i {
+  color: blue;
+} */
+#check {
+  display: none;
+}
+.checkbtn {
+  font-size: 25px;
+  color: white;
+  float: left;
+  line-height: 80px;
+  margin-left: 40px;
+  cursor: pointer;
+  display: no;
+}
+@media (max-width: 768px) {
+  header {
+    background-color: black;
+  }
+}
+.acerda-de {
+  text-align: center;
+}
+.acerca-imagen {
+  margin-bottom: 40px;
+}
+h2.fuente-acento {
+  text-align: center;
+}
+.checkbtn {
+  display: block;
+}
+#encabezado ul {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: cadetblue;
+  text-align: center;
+  
+  top: 80px;
+  left: 100%;
+  transition: all 0.5s;
+}
+#check:checked ~ ul {
+  left: 0;
+  display: block;
+}
+#encabezado nav ul li {
+  display: block;
+  margin: 50px 0;
+  line-height: 30px;
+}
+#encabezado nav ul li a {
+  font-size: 20px;
+}
+#check:checked ~ .checkbtn {
+  color: aquamarine;
+}
+@media (min-width: 768px) {
+  .nav ul {
+    display: flex;
+  }
+  .nav .nav-toggle {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .nav ul {
+    display: none;
+  }
+  .nav .nav-toggle {
+    display: block;
+  }
+}
+aside {
+  display: block;
+  text-align: center;
+}
+div h2 {
+  display: block;
+  text-align: center;
+}
+article section div h2 {
+  text-align: left;
+}
+/*p:hover {
+  text-decoration: none;
+  color: black;
+}*/
+/* a:hover {
+  text-decoration: underline;
+  color: red;
+} */
